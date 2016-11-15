@@ -1,0 +1,36 @@
+﻿  Ant.cpp
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(645): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(646): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(669): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(683): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(708): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(723): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(784): warning C4804: '%': unsafe use of type 'bool' in operation
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(800): warning C4804: '%': unsafe use of type 'bool' in operation
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(857): warning C4804: '%': unsafe use of type 'bool' in operation
+c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(873): warning C4804: '%': unsafe use of type 'bool' in operation
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(30): note: see reference to function template instantiation '_Ty std::_Accumulate<_Iter,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+          with
+          [
+              _Ty=int,
+              _Iter=float *,
+              _Fn2=std::plus<void>,
+              _InIt=float *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(38): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=float *,
+              _Fn2=std::plus<void>
+          ]
+  c:\users\anathapindika\documents\c_fermants\fermants\fermants\ant.cpp(293): note: see reference to function template instantiation '_Ty std::accumulate<float*,int>(_InIt,_InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=float *
+          ]
+  Fermants.vcxproj -> C:\Users\Anathapindika\Documents\C_Fermants\Fermants\Debug\Fermants.exe
